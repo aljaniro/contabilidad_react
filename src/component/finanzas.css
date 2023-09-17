@@ -1,0 +1,47 @@
+.container{
+  
+display: grid;
+place-items: center;
+grid-template-areas: 
+"col1 col2" ;
+justify-content: center;
+align-items: center; 
+
+}
+.col1{
+  grid-area: col1;
+ 
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+    
+
+}
+.col2{
+   grid-area: col2;
+  
+   border-radius: 0%;
+   -webkit-border-radius: 0%;
+   -moz-border-radius: 0%;
+   -ms-border-radius: 0%;
+   -o-border-radius: 0%;
+ 
+}   
+@media only screen and (max-width: 900px) {
+    .container {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 0px;
+        grid-template-areas:    "col1"
+                                "col2"
+                                ;
+    }
+    .col2{
+        padding-top: -400px;
+    }
+}

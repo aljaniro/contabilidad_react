@@ -1,0 +1,22 @@
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 100%;
+   padding-bottom: 150px;
+}
+
+.card{
+    margin-top: 300px;
+    background: red;
+    width: 540px;
+   color: white;
+   background: black;
+}
+
+button{
+    width: 100%;
+}
+.btn:hover{
+    background: goldenrod;
+}
